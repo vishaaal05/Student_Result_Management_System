@@ -1,0 +1,142 @@
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+body{
+  background: -webkit-linear-gradient(left, #25c481, #25b7c4);
+  background: linear-gradient(to right, #3aa6ee, #a4a4ec);
+  font-family: 'Roboto', sans-serif;
+}body{
+    margin: 0;
+    padding: 0;
+
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+.lgo {
+    width: 121px;
+    height: 60px;
+}
+
+#Uni {
+	
+    color: #fff;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: -1px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.bhat {
+	width: 178px;
+	height: 100px;
+}
+ .du {
+   color: #000;
+  
+}
+
+#foot{
+    background-color: #000;
+    color: #fff;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 12px;
+    padding-top: 16px;
+    
+}
+
+.image_round img {
+    width: 167px;
+    height: 158px;
+}
+
+#round img {
+    width: 281px;
+    height: 158px;
+}
+#nav a:hover{
+    text-decoration: underline;
+    color: #1216ee;
+    
+}
+
+.login-box{
+    width: 320px;
+    height: 450px;
+    background: rgba(0, 0, 0, 0.1);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+   box-sizing: border-box; 
+    padding: 70px 30px;
+}
+.avatar{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+    color:black;
+}
+.login-box p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.login-box input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.login-box input[type="text"], input[type="password"],input[type="number"],input[type="email"]
+{
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: black;
+    font-size: 16px;
+}
+.login-box input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #1c8adb;
+    color: black;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.login-box input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #39dc79;
+    color: #000;
+}
+
+.login-box a{
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+}
+.login-box a:hover
+{
+    color: #39dc79;
+}
+h2
+{
+	color:black;
+}
