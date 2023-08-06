@@ -5,7 +5,7 @@ public static Connection getCon()
 {
 try {
    Class.forName("com.mysql.jdbc.Driver"); 
-   Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/project1","root","admin");
+   Connection con=DriverManager.getConnection("jdbc:mysql://containers-us-west-79.railway.app:6464/railway","root","q8SRJXflKAQiEq3bKGBu");
    return con;
 }
    catch(Exception e) 
